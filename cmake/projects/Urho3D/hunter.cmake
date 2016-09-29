@@ -42,13 +42,24 @@ hunter_add_version(
     e298047650f3c37498a21f705cc5e65ae3d8398e
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    Urho3D
+    VERSION
+    "1.5-p3"
+    URL
+    "https://github.com/urho3d/Urho3D/archive/102a137a4d704d533d63fe06323bbafed4169f40.zip"
+    SHA1
+    c26f9748009c19a4d983021132f2a8f74fd7ecfd
+)
+
 hunter_cmake_args(Urho3D
   CMAKE_ARGS
   URHO3D_SAMPLES=OFF
   CMAKE_DEBUG_POSTFIX="d"
   CMAKE_RELEASE_POSTFIX=""
   CMAKE_RELWITHDEBINFO_POSTFIX=""
-  )
+)
 
 # Pick a download scheme
 hunter_pick_scheme(DEFAULT url_sha1_cmake) # use scheme for cmake projects

@@ -14,6 +14,17 @@ hunter_add_version(
     PACKAGE_NAME
     Urho3D
     VERSION
+    "1.7-p0-07dfd7b"
+    URL
+    "https://github.com/urho3d/Urho3D/archive/07dfd7b7202bfe989e5155202f5917b919934f34.zip"
+    SHA1
+    4126ff41847e818af6cd2d82c574f0d64025e694
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    Urho3D
+    VERSION
     "1.6-p0-e2bad7d"
     URL
     "https://github.com/urho3d/Urho3D/archive/1.6.zip"
